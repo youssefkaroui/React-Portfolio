@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Tech-Blog",
+        "image": "https://github.com/youssefkaroui/Tech-Blog/blob/main/assets/images/dashboard.screenshot.png",
+        "github": "https://github.com/youssefkaroui/Tech-Blog",
+        "deploy": "https://fathomless-woodland-45652-e6f03efdfa03.herokuapp.com/",
+        "topics": "Sequelize, MySQL2, express-handlebars, dotenv package, bcrypt package"
+    },
+    {
+        "id": 2,
+        "name": "Note-Taker",
+        "image": "https://github.com/youssefkaroui/Note-Taker/blob/main/assets/README.screenshot.png",
+        "github": "https://github.com/youssefkaroui/Note-Taker",
+        "deploy": "https://note-ta-982de7554cb2.herokuapp.com/notes",
+        "topics": "express, JS, JSON "
+    },
+    {
+        "id": 3,
+        "name": "Code-Quiz",
+        "image": "https://github.com/youssefkaroui/Code-quiz/blob/main/assets/images/README-screenshot.png",
+        "github": "https://github.com/youssefkaroui/Code-quiz",
+        "deploy": "https://youssefkaroui.github.io/Code-quiz/",
+        "topics": "HTML5, JS, CSS,"
+    },
+    {
+        "id": 4,
+        "name": "Weather-Dashboard",
+        "image": "https://github.com/fondofhats/weather-dashboard/raw/master/weather-dashboard.png",
+        "github": "https://github.com/youssefkaroui/weather-dashboard",
+        "deploy": "https://youssefkaroui.github.io/weather-dashboard/",
+        "topics": "moment.js, javascript, jQuery, localStorage, API"
+    },
+    {
+        "id": 5,
+        "name": "From-The-Tap",
+        "image": "https://github.com/youssefkaroui/from-the-tap/blob/main/assets/images/beer-image.jpeg",
+        "github": "https://github.com/youssefkaroui/from-the-tap",
+        "deploy": "https://youssefkaroui.github.io/from-the-tap/",
+        "topics": "HTML5, CSS, javascript, API"
+    },
+    {
+        "id": 6,
+        "name": "Work-Day-Scheduler",
+        "image": "https://github.com/youssefkaroui/Work-day-scheduler/blob/main/assets/images/README-screenshot.png",
+        "github": "https://youssefkaroui.github.io/Work-day-scheduler/",
+        "deploy": "https://youssefkaroui.github.io/Work-day-scheduler/",
+        "topics": "HTML5, CSS, Javascript, JQuery, Bootstrap"
+    }
+]
