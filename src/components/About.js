@@ -10,7 +10,7 @@ function AboutMe() {
                 <img class="mb-5" id="avatar" src="../assets/images/avatar.png" alt="Youssef Karoui" />
 
                 <p>
-                College graduate with a bachlors in Bio-engineering. Currenty working in customer service feild, spesifically in the restaurant industry. 
+                College graduate with a Bachlors in Bioengineering. Currenty working in customer service feild, spesifically in the restaurant industry. 
                 </p>
                 <p>
                 Strong customer service expereince. With over 8 years of experience in the feild with a variety of companies.

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { emailValidation } from '../../utils/helpers';
+import { EmailValidation } from '../../utils/helpers';
 
 function ContactFormHandler() {
 
@@ -11,7 +11,7 @@ function ContactFormHandler() {
 
     function handleInput(e) {
         if (e.target.name === 'employerEmail') {
-            const isValid = employerEmail.emailValidation(e.target.value);
+            const isValid = employerEmail.EmailValidation(e.target.value);
     
                 if(!isValid) {
                     setErrorMessage('please enter a valid email');
@@ -32,7 +32,7 @@ function ContactFormHandler() {
         }
     }
 
-    function handleSubmit(e) {
+    function submitHandler(e) {
         e.preventDefault();
     }
 
@@ -60,7 +60,7 @@ return (
             )}
 
             <div class="mt-5 mb-5" >
-            <button data-testid='button' class="btn btn-outline-dark " type="submit" onSubmit={handleSubmit}>Submit</button>
+            <button data-testid='button' class="btn btn-outline-dark " type="submit" onSubmit={submitHandler}>Submit</button>
             </div>
         </form>
     </section>
