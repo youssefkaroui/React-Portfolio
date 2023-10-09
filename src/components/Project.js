@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // projects Cards 
-function ProjectCards(props) {
+function singleProjectCard(props) {
     return (
       <div className="card"> 
         <div className="img-container">
@@ -24,4 +24,4 @@ function ProjectCards(props) {
     );
 }
   
-  export default ProjectCards;
+  export default singleProjectCard;
