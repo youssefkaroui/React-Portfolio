@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar } from "react-bootstrap";
 import {NavLink} from "react-router-dom";
 
-function navigationHandler(props) {
+function NavigationHandler(props) {
   return (
     <div>
       <Navbar expand="lg" bg="bg-teal.bg-gradient" sticky="top">
@@ -38,4 +38,4 @@ function navigationHandler(props) {
   );
 }
 
-export default navigationHandler;
+export default NavigationHandler;
