@@ -18,7 +18,7 @@ function Portfolio () {
 
           <Wrapper id="card-data">
             {portfolio.map((project) => (
-              <SingleProjectCard key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy} topics={project.topics}/>
+              <SingleProjectCard key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy} technologies={project.technologies}/>
             ))}
           </Wrapper>
         </section>
