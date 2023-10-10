@@ -6,10 +6,10 @@ import { NavLink } from "react-router-dom";
 function NavigationHandler(props) {
   return (
     <div>
-      <Navbar expand="lg" bg="bg-teal.bg-gradient" sticky="top">
+      <Navbar expand="lg" bg="dark" sticky="top">
         <NavLink className="nav-link" to="/">
           <div className="text-light">
-            <h4 className="nav-title-font">Youssef Karoui</h4>
+            <h4 class="nav-title-font">Youssef Karoui</h4>
           </div>
         </NavLink>
         <ul className="navbar-nav ml-auto navitem-indent">
