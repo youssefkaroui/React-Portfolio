@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, Routes, HashRouter, Navigate } from "react-router-dom";
+import { Route, Routes, HashRouter,  } from "react-router-dom";
 import NavigationHandler from "./Navigation";
 import Resume from './Resume';
 import AboutMe from "./About";
