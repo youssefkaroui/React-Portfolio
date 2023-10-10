@@ -4,10 +4,10 @@ function AboutMe() {
 
     return(
         <section className="container">
-            <h2 class="top-title">Youssef Karoui</h2>
+            <h2 className="top-title">Youssef Karoui</h2>
             <hr></hr>
             <div>
-                <img class="mb-5" id="avatar" src="../assets/images/avatar.png" alt="Youssef Karoui" />
+                <img className="mb-5" id="avatar" src="../assets/images/avatar.png" alt="Youssef Karoui" />
 
                 <p>
                 College graduate with a Bachlors in Bioengineering. Currenty working in customer service feild, spesifically in the restaurant industry. 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { EmailValidation } from '../../utils/helpers';
+import { EmailValidation } from '../utils/helpers';
 
 function ContactFormHandler() {
 
@@ -40,27 +40,27 @@ return (
     <section className="container">
         <h2 data-testid='h1tag' className="top-title">Contact Form</h2>
         <hr></hr>
-        <form class="justify-content-center" id="contact-form">
-            <div class="mt-5" >
+        <form className="justify-content-center" id="contact-form">
+            <div className="mt-5" >
                 <label htmlFor="employerName">Name:</label>
-                <input class="form-control" type="text" name="employerName"  defaultValue={employerName} onBlur={handleInput}/>
+                <input className="form-control" type="text" name="employerName"  defaultValue={employerName} onBlur={handleInput}/>
             </div>
-            <div class="mt-5" >
+            <div className="mt-5" >
                 <label htmlFor="employerEmail">Email Address:</label>
-                <input class="form-control" type="email"  name="employerEmail" defaultValue={employerEmail} onBlur={handleInput} />
+                <input className="form-control" type="email"  name="employerEmail" defaultValue={employerEmail} onBlur={handleInput} />
             </div>
-            <div class="mt-5" >
+            <div className="mt-5" >
                 <label htmlFor="employerMessage">Message:</label>
-                <textarea class="form-control" name="employerMessage" defaultValue={employerMessage} onBlur={handleInput} rows="7" />
+                <textarea className="form-control" name="employerMessage" defaultValue={employerMessage} onBlur={handleInput} rows="7" />
             </div> 
             {errorMessage && (
             <div>
-                <p className="error-text">{errorMessage}</p>
+                <p classNameName="error-text">{errorMessage}</p>
             </div>
             )}
 
-            <div class="mt-5 mb-5" >
-            <button data-testid='button' class="btn btn-outline-dark " type="submit" onSubmit={submitHandler}>Submit</button>
+            <div className="mt-5 mb-5" >
+            <button data-testid='button' className="btn btn-outline-dark " type="submit" onSubmit={submitHandler}>Submit</button>
             </div>
         </form>
     </section>
