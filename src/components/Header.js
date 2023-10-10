@@ -17,11 +17,11 @@ class Header extends Component {
 
         <div className="content">
         <Routes>
-          <Route exact path="/" element={() => <Navigate to="/about" />} />
-          <Route exact path="/" element={<Navigate to="/about" />} />
-          <Route exact path="/" element={<Navigate to="/portfolio" />} />  
-          <Route exact path="/" element={<Navigate to="/portfolio" />} />   
-          <Route exact path="/" element={<Navigate to="/resume" />} />  
+          <Route exact path="/" element={<AboutMe/>} />
+          <Route path="/about" element={<AboutMe/>} />
+          <Route path="/portfolio" element={<Portfolio/>} />
+          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/resume" element={<Resume/>}/>
         </Routes>
         </div>
       </HashRouter>
