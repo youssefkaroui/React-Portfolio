@@ -1,13 +1,252 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Days+One');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+main {
+	margin: 0 auto;
+	max-width: 100%;
+  padding: 50px 30px;
+}
+:root {
+  --seagreen:seagreen ;
+  --darkred:darkred;
+  --tertiary: #B12704;
+  --light: #fafafa;
+  --cultured: #A3A3A3;
+  --dark: #000000;
+  --darker: #111111;
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --spacing-five: calc(2.5rem);
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
 }
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 25px;
+  letter-spacing: .05em;
+  background: var(--offwhite);
+  font-family:"Georgia, 'Times New Roman', Times, serif";
+}
+
+
+
+
+a:hover {
+  text-decoration:wavy;
+}
+
+header {
+  background: var(--dark);
+}
+
+header a {
+  color: var(--tertiary);
+}
+
+button {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: var(--secondary);
+}
+
+button:hover {
+  opacity: .8;
+}
+
+
+
+img {
+  max-width: 100%;
+}
+
+#avatar {
+  max-height:200px;
+  border-radius: 150px;
+  }
+
+
+
+form {
+  width: 60%;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--cadet-blue);
+  outline: none;
+  border-radius: 5px;
+  transition: box-shadow 0.4s;
+}
+
+input:focus {
+  border: 1px solid var(--success);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+li {
+  list-style: none;
+}
+
+.nav-font {
+  font-family: 'Tahoma' ;
+  font-size: 1.5em;
+}
+
+.nav-title-font {
+  font-family: 'Tahoma';
+  font-size: 2em;
+}
+
+.top-title {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif '';
+  margin-top: 20px;
+}
+
+.navitem-indent {
+  padding-right: 50px;
+}
+
+.navbar-nav > li{
+  margin-left:30px;
+  margin-right:30px;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+nav  li {
+  cursor: pointer;
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+
+
+.wrapper {
+  padding-top: 50px;
+  justify-content: space-around;
+  height: 100%;
+  display: flex;
+  overflow: auto;
+  flex-flow: row wrap;
+  padding: 10px;
+  align-content: flex-start;
+}
+
+.card {
+  background-color: var(--white);
+  border-radius: 5px;
+  height: 400px;
+  margin: 2rem;
+  position: relative;
+  width: 400px;
+  box-shadow: 0 2px 2px var(--cultured), 0 6px 12px var(--cultured);
+}
+
+.card .img-container {
+  height: 75%;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 10px;
+  background-color: var(--white);
+}
+
+.card .img-container img {
+  width: 100%;
+  padding: 25px;
+  margin-bottom: 20px;
+  background-color: var(--white);
+}
+
+.card .content {
+  font-size: 20px;
+  background-color: var(--);
+  color: var(--cadet-blue);
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-title{
+  margin-top: 10px;
+  color: var(--eerie-black);
+}
+
+.project-title {
+  color: var(--cultured);
+  background-color: var(--white);
+}
+
+.technologies {
+  font-size: 12px;
+  font-style: italic;
+  background-color: var(--offwhite)
+}
+
+.footer { 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+} 
+
+.icon {
+  padding: 30px;
+}
+
+
+
+a {
+	border-radius: 5px;
+	color: var(--primary);
+	font-weight: 600;
+	padding: 2px 4px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
