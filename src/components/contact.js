@@ -11,7 +11,7 @@ function ContactFormHandler() {
 
     function handleInput(e) {
         if (e.target.name === 'employerEmail') {
-            const isValid = employerEmail.EmailValidation(e.target.value);
+            const isValid = EmailValidation(e.target.value);
     
                 if(!isValid) {
                     setErrorMessage('please enter a valid email');
