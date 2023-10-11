@@ -53,7 +53,7 @@ header {
 }
 
 header a {
-  color: var(--tertiary);
+  color: var(--light);
 }
 
 button {

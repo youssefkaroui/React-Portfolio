@@ -11,10 +11,21 @@ function Resume() {
           <h2 className="top-title">Youssef Karoui</h2>
           <ul>
             <li>
-              Main competencies in customer service and team management, full-stack web
+              Main competencies in customer service and team building and management. Recently started wokrking on my full-stack web development bootcamp.
               development.
             </li>
           </ul>
+          <div className="justify-content-center mt-5">
+        <div>
+          <h2 className="top-title">Proficiencies</h2>
+          <ul>
+            <li>
+            HTML, CSS (Bootstrap, HandleBars), JavaScript, jQuery, React.js, IndexedDB,<br />
+            Node.js, Express.js, SQL, Sequelize, MongoDB, Mongoose, NoSQL, APIs, React.
+            </li>
+          </ul>
+        </div>
+      </div>
 
           <p className="mt-5">
             <a href="https://www.linkedin.com/in/youssef-karoui-930877121/">
@@ -26,7 +37,7 @@ function Resume() {
           </p>
 
           <a
-            href=""
+            href="https://github.com/youssefkaroui/react-portfolio/raw/main/src/assets/resume.docx"
             className="link"
           >
             Download Resume
@@ -34,17 +45,7 @@ function Resume() {
         </div>
       </div>
 
-      <div className="justify-content-center mt-5">
-        <div>
-          <h2 className="top-title">Proficiencies</h2>
-          <ul>
-            <li>
-            HTML, CSS (Bootstrap, HandleBars), JavaScript, jQuery, React.js, IndexedDB,<br />
-            Node.js, Express.js, SQL, Sequelize, MongoDB, Mongoose, NoSQL, APIs, React.
-            </li>
-          </ul>
-        </div>
-      </div>
+      
     </section>
   );
 }

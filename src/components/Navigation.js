@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 function NavigationHandler(props) {
   return (
     <div>
-      <Navbar expand="lg" bg="dark" sticky="top">
+      <Navbar expand="lg" bg="secondary" sticky="top">
         <NavLink className="nav-link" to="/">
           <div className="text-light">
             <h4 class="nav-title-font">Youssef Karoui</h4>
