@@ -1,6 +1,6 @@
 # React-Portfolio
  
- ![alt text](./assets/images/README.screenshot.png) 
+ ![alt text](./src/assets/images/README.screenshot.png) 
 
 This React-Portfolio is a place where I can show all the projects that I have worked on so far to potential employers as well as my fellow developers and collaborators. It also shows my React skills to employers that are looking for developers that master the latest technologies out there.
   
