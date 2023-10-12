@@ -9,7 +9,7 @@ function NavigationHandler(props) {
       <Navbar expand="lg" bg="secondary" sticky="top">
         <NavLink className="nav-link" to="/">
           <div className="text-light">
-            <h4 class="nav-title-font">Youssef Karoui</h4>
+            <h4 className="nav-title-font">Youssef Karoui</h4>
           </div>
         </NavLink>
         <ul className="navbar-nav ml-auto navitem-indent">
