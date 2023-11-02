@@ -17,11 +17,11 @@
     },
     {
         "id": 3,
-        "name": "Code-Quiz",
-        "image": "https://github.com/youssefkaroui/Code-quiz/blob/main/assets/images/README-screenshot.png?raw=true",
-        "github": "https://github.com/youssefkaroui/Code-quiz",
-        "deploy": "https://youssefkaroui.github.io/Code-quiz/",
-        "technologies": "HTML5, JS, CSS,"
+        "name": "Pet-Spot",
+        "image": "https://github.com/youssefkaroui/pets-spot/blob/main/client/public/images/README.screenshot.png?raw=true",
+        "github": "https://github.com/youssefkaroui/pets-spot",
+        "deploy": "https://shielded-beach-29867-5efce834725b.herokuapp.com/",
+        "technologies": "HTML5, JS, CSS, Chakra UI, GraphQL, MongoDB, Mongoose, Heroku, MongoDB Atlas, Appollo "
     },
     {
         "id": 4,
