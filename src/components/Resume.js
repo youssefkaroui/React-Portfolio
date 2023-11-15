@@ -8,7 +8,7 @@ function Resume() {
 
       <div>
         <div className="mt-5">
-          <h2 className="top-title">Youssef Karoui</h2>
+          <h2 className="top-title">Skills</h2>
           <ul>
             <li>
               Main competencies in customer service, team building and team management. 
