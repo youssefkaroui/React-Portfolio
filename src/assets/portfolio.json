@@ -1,22 +1,6 @@
 [
     {
         "id": 1,
-        "name": "Tech-Blog",
-        "image": "https://github.com/youssefkaroui/Tech-Blog/blob/main/assets/images/dashboard.screenshot.png?raw=true",
-        "github": "https://github.com/youssefkaroui/Tech-Blog",
-        "deploy": "https://fathomless-woodland-45652-e6f03efdfa03.herokuapp.com/",
-        "technologies": "Sequelize, MySQL2, express-handlebars, dotenv package, bcrypt package"
-    },
-    {
-        "id": 2,
-        "name": "Note-Taker",
-        "image": "https://github.com/youssefkaroui/Note-Taker/blob/main/assets/README.screenshot.png?raw=true",
-        "github": "https://github.com/youssefkaroui/Note-Taker",
-        "deploy": "https://note-ta-982de7554cb2.herokuapp.com/notes",
-        "technologies": "express, JS, JSON "
-    },
-    {
-        "id": 3,
         "name": "Pet-Spot",
         "image": "https://github.com/youssefkaroui/pets-spot/blob/main/client/public/images/README.screenshot.png?raw=true",
         "github": "https://github.com/youssefkaroui/pets-spot",
@@ -24,21 +8,39 @@
         "technologies": "HTML5, JS, CSS, Chakra UI, GraphQL, MongoDB, Mongoose, Heroku, MongoDB Atlas, Appollo "
     },
     {
-        "id": 4,
-        "name": "Weather-Dashboard",
-        "image": "https://github.com/youssefkaroui/weather-dashboard/blob/main/assets/images/README-screenshot.png?raw=true",
-        "github": "https://github.com/youssefkaroui/weather-dashboard",
-        "deploy": "https://youssefkaroui.github.io/weather-dashboard/",
-        "technologies": "moment.js, javascript, jQuery, localStorage, API"
-    },
-    {
-        "id": 5,
+        "id": 2,
         "name": "From-The-Tap",
         "image": "https://user-images.githubusercontent.com/99456321/162476681-28de00b1-89ea-4b2d-a282-62a08d7eb354.png",
         "github": "https://github.com/youssefkaroui/from-the-tap",
         "deploy": "https://youssefkaroui.github.io/from-the-tap/",
         "technologies": "HTML5, CSS, javascript, API"
     },
+    {
+        "id": 3,
+        "name": "Tech-Blog",
+        "image": "https://github.com/youssefkaroui/Tech-Blog/blob/main/assets/images/dashboard.screenshot.png?raw=true",
+        "github": "https://github.com/youssefkaroui/Tech-Blog",
+        "deploy": "https://fathomless-woodland-45652-e6f03efdfa03.herokuapp.com/",
+        "technologies": "Sequelize, MySQL2, express-handlebars, dotenv package, bcrypt package"
+    },
+    {
+        "id": 4,
+        "name": "Note-Taker",
+        "image": "https://github.com/youssefkaroui/Note-Taker/blob/main/assets/README.screenshot.png?raw=true",
+        "github": "https://github.com/youssefkaroui/Note-Taker",
+        "deploy": "https://note-ta-982de7554cb2.herokuapp.com/notes",
+        "technologies": "express, JS, JSON "
+    },
+    
+    {
+        "id": 5,
+        "name": "Weather-Dashboard",
+        "image": "https://github.com/youssefkaroui/weather-dashboard/blob/main/assets/images/README-screenshot.png?raw=true",
+        "github": "https://github.com/youssefkaroui/weather-dashboard",
+        "deploy": "https://youssefkaroui.github.io/weather-dashboard/",
+        "technologies": "moment.js, javascript, jQuery, localStorage, API"
+    },
+    
     {
         "id": 6,
         "name": "Work-Day-Scheduler",
