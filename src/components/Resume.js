@@ -11,8 +11,7 @@ function Resume() {
           <h2 className="top-title">Youssef Karoui</h2>
           <ul>
             <li>
-              Main competencies in customer service and team building and management. Recently started wokrking on my full-stack web development bootcamp.
-              development.
+              Main competencies in customer service, team building and team management. 
             </li>
           </ul>
           <div className="justify-content-center mt-5">
@@ -20,8 +19,8 @@ function Resume() {
           <h2 className="top-title">Proficiencies</h2>
           <ul>
             <li>
-            HTML, CSS (Bootstrap, HandleBars), JavaScript, jQuery, React.js, IndexedDB,<br />
-            Node.js, Express.js, SQL, Sequelize, MongoDB, Mongoose, NoSQL, APIs, React.
+            HTML5, CSS (Bootstrap, HandleBars,Bulma, Chakra UI), JavaScript, jQuery, React.js, IndexedDB,<br />
+            Node.js, Express.js, SQL, Sequelize, MongoDB, Mongoose, MongoDB Atlas, NoSQL, APIs, React, Appollo, GraphQL .
             </li>
           </ul>
         </div>
@@ -40,7 +39,7 @@ function Resume() {
             href="https://github.com/youssefkaroui/react-portfolio/raw/main/src/assets/resume.docx"
             className="link"
           >
-            Download Resume
+            Download my resume
           </a>
         </div>
       </div>
