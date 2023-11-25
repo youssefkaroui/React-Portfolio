@@ -20,7 +20,7 @@ function Resume() {
           <ul>
             <li>
             HTML5, CSS (Bootstrap, HandleBars,Bulma, Chakra UI), JavaScript, jQuery, React.js, IndexedDB,<br />
-            Node.js, Express.js, SQL, Sequelize, MongoDB, Mongoose, MongoDB Atlas, NoSQL, APIs, React, Appollo, GraphQL .
+            Node.js, Express.js, SQL, Sequelize, MongoDB, Mongoose, MongoDB Atlas, NoSQL, APIs, React, PWA, Appollo, GraphQL .
             </li>
           </ul>
         </div>
