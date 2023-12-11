@@ -17,7 +17,7 @@ function AboutMe() {
                 Strong customer service expereince. With over 8 years of experience in the feild with a variety of companies.
                 </p>
                 <p>
-                Proven track of leadership roles in the restaurant industy.
+                Proven track of leadership roles in the restaurant industy. Excited to start my new career in Web Developlemt!
                 </p>
             </div>
         </section>
