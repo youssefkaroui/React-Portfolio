@@ -3,12 +3,12 @@ import React from "react";
 function Resume() {
   return (
     <section className="container">
-      <h2 className="top-title">Resume</h2>
+      <h2 className="top-title">Resume:</h2>
       <hr></hr>
 
       <div>
         <div className="mt-5">
-          <h2 className="top-title">Skills</h2>
+          <h2 className="top-title">Skills:</h2>
           <ul>
             <li>
               Main competencies in customer service, team building and team management. 
@@ -16,7 +16,7 @@ function Resume() {
           </ul>
           <div className="justify-content-center mt-5">
         <div>
-          <h2 className="top-title">Proficiencies</h2>
+          <h2 className="top-title">Proficiencies:</h2>
           <ul>
             <li>
             HTML5, CSS (Bootstrap, HandleBars,Bulma, Chakra UI), JavaScript, jQuery, React.js, IndexedDB,<br />
@@ -39,7 +39,7 @@ function Resume() {
             href="https://github.com/youssefkaroui/react-portfolio/raw/main/src/assets/Youssef's resume.pdf"
             className="link"
           >
-            Download my resume
+            Download my resume here
           </a>
         </div>
       </div>
