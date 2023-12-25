@@ -2,7 +2,7 @@
  
  ![alt text](./src/assets/images/README.screenshot.png) 
 
-This React-Portfolio  alllows me to showcase all the projects that I have worked on so far to a potential employers as well as my fellow developers and collaborators. It also shows my React skills to employers that are looking for developers that master the latest technologies out there!
+My React-Portfolio  alllows me to showcase all the projects that I have worked on so far to a potential employers as well as my fellow developers and collaborators. It also shows my React skills to employers that are looking for developers that master the latest technologies out there!
   
   
   
@@ -60,6 +60,6 @@ This React-Portfolio  alllows me to showcase all the projects that I have worked
 
   [Email me if you have any questions](mailto:youssefkaroui6@gmail.com)
 
-[Review my other projects on GitHub.](https://www.github.com/youssefkaroui)
+[Review all my projects on GitHub.](https://www.github.com/youssefkaroui)
 
   
