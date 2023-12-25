@@ -2,7 +2,7 @@
  
  ![alt text](./src/assets/images/README.screenshot.png) 
 
-This React-Portfolio is a place where I can show all the projects that I have worked on so far to potential employers as well as my fellow developers and collaborators. It also shows my React skills to employers that are looking for developers that master the latest technologies out there.
+This React-Portfolio  alllows me to showcase all the projects that I have worked on so far to a potential employers as well as my fellow developers and collaborators. It also shows my React skills to employers that are looking for developers that master the latest technologies out there!
   
   
   
@@ -22,12 +22,12 @@ This React-Portfolio is a place where I can show all the projects that I have wo
   <a name="installation"></a>
   ## Installation
 
-  Clone the repository on your local machine and run `npm i`, `npm start`.
+  Clone the repository on your local machine and run `npm i` then `npm start`.
 
   <a name= "usage"></a>
 
   ## Usage
-  Run the application on your local machine and navigate to your default browser to see the deployment or you can just access the deployment link in the Deployment section.
+  Run the application on your local machine and navigate to your default browser to see the deployment or you can just access the deployment link in the Deployment section down below.
   <a name="contribution"></a>
 
   ## Contribution 
